@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background-color: #0cb9c1;
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #f3f4f7;
+
+}
+nav a{
+    padding-left: 27px;
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+
+}
+main{
+    background-color: #f3f4f7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .card-content{
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 8px 8px 24px #888888;
+    border-radius: 10px;
+    padding: 30px;
+}
+main .card-content .card-title{
+    border-bottom: 2px solid #f3f4f7;
+    padding-bottom: 20px;
+}
+main .card-content .card-title h2{
+    text-align: center;
+}
+main .card-content .login-wrapper .form-control{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+    background-color: #f3f4f7;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+main .card-content .login-wrapper .login-btn{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-shadow: 5px 5px 18px #888888;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: #0cb9c1;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
